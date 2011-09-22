@@ -1,0 +1,7 @@
+Here's a multi-lingual tokenizer for Lucene and/or Solr.  It's not optimal, but it is simple and used in production on many websolr indexes.
+
+    "巴士阿叔 hello world look arabic: لوحة المفاتيح"
+    
+    will be tokenized as
+    
+    "巴", "士", "阿", "叔", "hello", "world", "look", "arabic", "لوحة", "المفاتيح"
